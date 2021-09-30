@@ -1,10 +1,20 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
+  <!-- <div id="nav">
+    <router-link to="/">Master</router-link> |
     <router-link to="/about">About</router-link>
-  </div>
+  </div> -->
   <router-view/>
 </template>
+
+<script>
+import M from 'materialize-css'
+import 'materialize-css/dist/css/materialize.css'
+export default {
+  mounted () {
+    M.AutoInit()
+  }
+}
+</script>
 
 <style lang="scss">
 #app {

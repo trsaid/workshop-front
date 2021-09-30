@@ -1,7 +1,13 @@
 module.exports = {
-  root: true,
+  
+  root: false,
+  useEslint: false,
   env: {
-    node: true
+    node: true,
+  },
+  globals:{
+    "$": true,
+    "jQuery": true
   },
   'extends': [
     'plugin:vue/vue3-essential',

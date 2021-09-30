@@ -36,7 +36,7 @@ export default {
         width: 100%;
 
         .logoC {
-        background: url('D:/i1/workshop/src/assets/logoC.png') no-repeat; 
+        background: url('../assets/logoC.png') no-repeat; 
         width: 200px;
         height: 165px;
         background-size: contain;

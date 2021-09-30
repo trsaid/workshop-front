@@ -30,7 +30,7 @@ export default {
    
     .row {
       .logo {
-      background: url('D:/i1/workshop/src/assets/logo.png') no-repeat; 
+      background: url('../assets/logo.png') no-repeat; 
       width: 200px;
       height: 165px;
       background-size: contain;

@@ -48,7 +48,7 @@ export default {
             
         }
       .logo {
-      background: url('D:/i1/workshop/src/assets/lockey_logo.png') no-repeat; 
+      background: url('../assets/lockey_logo.png') no-repeat; 
       width: 140px;
       height: 165px;
       background-size: contain;

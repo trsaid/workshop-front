@@ -84,7 +84,7 @@ export default {
             color: black !important;
         }
         .logoC {
-        background: url('D:/i1/workshop/src/assets/logoC.png') no-repeat; 
+        background: url('../../assets/logoC.png') no-repeat; 
         width: 380px;
         height: 420px;
         background-size: contain;
